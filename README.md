@@ -1,19 +1,51 @@
 # Import Data using Transform Maps (Spreadsheet)
 
-A TNSDC ServiceNow project. **All nine tasks are implemented; SkillWallet shows all nine in Review and 90% overall, pending platform review.**
+**TNSDC / SkillWallet — Disney Antro J (team lead), Praveen N and Sibin P.**
 
-The Zurich implementation loads synthetic employee data into `u_employee_import`, then uses **Sample Spreadsheet Import** to map five String fields into `u_employee_test`. Source **Name** maps to **Employee Name**, and **Employee ID alone coalesces**. Department pie, Location bar, and Employee List reports appear on **Employee Analytics Dashboards**.
+This ServiceNow Zurich project imports synthetic employee data into **Employee Test**, updates matching employees through **Employee ID coalesce**, and presents the final records in three dashboard reports.
 
-| Verified transform | Total | Inserts | Updates | Ignored | Errors |
+## Project documentation
+
+The single six-phase document covers Ideation, Requirement Analysis, Project Design, Project Planning, Project Development, and Project Documentation. Read the [PDF](Transform_Maps_Six_Phase_Project_Documentation.pdf) or download the [editable DOCX](Transform_Maps_Six_Phase_Project_Documentation.docx). The [owner's editable Google Doc copy](https://docs.google.com/document/d/1LFzab42jFeOn9L5nKm1muUL8pDDFKQp9AvjMeIc7vPs/edit) is saved in the owner's Drive and requires Drive permission; reviewers can use the repository PDF/DOCX without requesting that access.
+
+Download and extract the [complete project package](Transform_Maps_Project_Package.zip) to preserve the `docs/`, `data/`, and `evidence/` folders and browse all screenshots offline. Start with the [setup and reproduction guide](project-runbook.md).
+
+| Artifact | Contents |
+| --- | --- |
+| [Baseline workbook](Sample%20Spreadsheet.xlsx) | 15 synthetic employees, five source columns |
+| [Delta workbook](Updated%20Sample%20Spreadsheet.xlsx) | Two changes and two new employees |
+| [Data notes](data-notes.md) | Mapping, import order and source provenance |
+| [Expected final target](Expected%20Final%20Target.csv) | Modeled comparison fixture |
+| [Actual final target](Actual%20Final%20Target%20%28UI%20Verified%29.csv) | Verified UI transcription; not a native export |
+| [Validation](final-target-validation.md) | Field-by-field reconciliation and limitations |
+| [HTTPS CSV import guide](csv-https-import.md) | The route used for the recorded imports |
+
+The original CSV sources remain in [data/Sample Spreadsheet.csv](data/Sample%20Spreadsheet.csv) and [data/Updated Sample Spreadsheet.csv](data/Updated%20Sample%20Spreadsheet.csv). Their values match the supplied XLSX workbooks exactly. `package-manifest.json` records SHA-256 hashes for the structured files inside the ZIP.
+
+## Observed results
+
+| Transform history | Rows | Inserted | Updated | Ignored | Errors |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| TH0001001 — baseline | 15 | 15 | 0 | 0 | 0 |
-| TH0001002 — delta | 4 | 2 | 2 | 0 | 0 |
-| TH0001003 — repeated delta | 4 | 0 | 0 | 4 | 0 |
+| Baseline — TH0001001 | 15 | 15 | 0 | 0 | 0 |
+| Delta — TH0001002 | 4 | 2 | 2 | 0 | 0 |
+| Repeat — TH0001003 | 4 | 0 | 0 | 4 | 0 |
 
-Final validation: **17 records, 17 unique Employee IDs, 85/85 exact field matches**, with no missing IDs or mismatches. Repeating the delta created no duplicates.
+The final target contains **17 records and 17 unique Employee IDs**, with **85/85 field values matching** the expected result. Department totals are ServiceNow 9 and Salesforce 8. The saved **Employee Analytics Dashboards** displays Department, Location and Employee List visualizations. The package includes the transform histories, final employee list, dashboard and current configuration screenshots.
 
-- [Live dashboard demo — ServiceNow sign-in required](https://dev230529.service-now.com/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/549ca1bac36f8b54c34b78cc05013131)
-- [Baseline CSV — 15 employees](https://github.com/DisneyAntroJ/skillwallet/blob/main/data/Sample%20Spreadsheet.csv)
-- [Update CSV — two updates and two additions](https://github.com/DisneyAntroJ/skillwallet/blob/main/data/Updated%20Sample%20Spreadsheet.csv)
+Target: `u_employee_test`. Staging: `u_employee_import`. Transform Map: `Sample Spreadsheet Import`. All five fields map explicitly, including source **Name → Employee Name**; only Employee ID coalesces. Actual execution used the CSV equivalents retrieved over HTTPS.
 
-All data is synthetic; email addresses use `example.com`. Execution used the approved HTTPS CSV data-source route. Original XLSX workbooks, project documents, and captured evidence are prepared in the delivery package. The demo is a live authenticated dashboard, not a video. Platform review/acceptance has not been confirmed.
+## Submission status and scope
+
+SkillWallet was observed at **90% with all nine tasks in Review**. Final platform completion is not confirmed. The saved live dashboard demonstration requires authorized ServiceNow access.
+
+A **2 minute 20 second captioned, silent screenshot walkthrough** is prepared locally for the team's manual voiceover. It is not included here or presented as a final submitted video; the seventh Demonstration phase remains separate from the six-phase document.
+
+Four supplementary negative source-preparation cases and formal human UAT signoff remain pending. Before/after target record IDs were not retained, and transform-history durations do not establish performance throughput. Detailed test scope and evidence are recorded in the master document.
+
+All sample employees are synthetic and all sample email addresses use `example.com`. No login credentials are included.
+
+## Links
+
+- [GitHub repository](https://github.com/DisneyAntroJ/skillwallet)
+- [Live dashboard — ServiceNow sign-in required](https://dev230529.service-now.com/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/549ca1bac36f8b54c34b78cc05013131)
+- [Project template folder](https://drive.google.com/drive/folders/1m_vXdKkujfkVq1x57h6bZ3Kj_07hdh4T)

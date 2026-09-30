@@ -1,0 +1,213 @@
+{
+  "project": "Import Data using Transform Maps (Spreadsheet)",
+  "team": [
+    "Disney Antro J",
+    "Praveen N",
+    "Sibin P"
+  ],
+  "google_document": "https://docs.google.com/document/d/1LFzab42jFeOn9L5nKm1muUL8pDDFKQp9AvjMeIc7vPs/edit",
+  "archive": "Transform_Maps_Project_Package.zip",
+  "archive_contains": "Curated source data, consolidated six-phase documentation, setup guides and recorded evidence; no video or credentials.",
+  "files": [
+    {
+      "path": "data/Actual Final Target (UI Verified).csv",
+      "size": 1184,
+      "sha256": "dfaa45932e7bf66f9ca98d508c50863a29867ffcc62a09d7aafe4f27877425b8"
+    },
+    {
+      "path": "data/Expected Final Target.csv",
+      "size": 1184,
+      "sha256": "dfaa45932e7bf66f9ca98d508c50863a29867ffcc62a09d7aafe4f27877425b8"
+    },
+    {
+      "path": "data/README.md",
+      "size": 3479,
+      "sha256": "aa1a7aec4a063450be60008263db1e7d66797aa2850885e1d1ebedd96758929d"
+    },
+    {
+      "path": "data/Sample Spreadsheet.csv",
+      "size": 1050,
+      "sha256": "ebec8e1730c348d1e916d0443828eea1d6788e327395185efa11b2585afdccda"
+    },
+    {
+      "path": "data/Sample Spreadsheet.xlsx",
+      "size": 4494,
+      "sha256": "dbe30ef5a6429084b9cdb2c8cf16bddcaa9c0eae1c18f827e98b70bf5722c05c"
+    },
+    {
+      "path": "data/Updated Sample Spreadsheet.csv",
+      "size": 293,
+      "sha256": "548ea785412be768c303c5ad066884aa3186a1023f84702df7df81db6812ea9e"
+    },
+    {
+      "path": "data/Updated Sample Spreadsheet.xlsx",
+      "size": 4031,
+      "sha256": "3842d1338f7d11932f41af7023d20239c35fdee5fdbddc2beb5d220c0e73027f"
+    },
+    {
+      "path": "docs/csv-https-import.md",
+      "size": 6439,
+      "sha256": "89694bad7d22bab4d18ec3295800286664f82540503c0219e53f5f0ec444be01"
+    },
+    {
+      "path": "docs/project-runbook.md",
+      "size": 5541,
+      "sha256": "66f5ce71ba9976a8c663de7daa3340e2e283439a22c6bd98173c11720f12e425"
+    },
+    {
+      "path": "docs/Transform_Maps_Six_Phase_Project_Documentation.docx",
+      "size": 720315,
+      "sha256": "f00bb32709fe900e7f9dd232984f5507568fe6d3f510cd6f3c98509607531d4a"
+    },
+    {
+      "path": "docs/Transform_Maps_Six_Phase_Project_Documentation.pdf",
+      "size": 1211879,
+      "sha256": "fd2d8ba316b994513807cbdfaa1cc4360644abdcc7ab8c86d3356b4b0aafc175"
+    },
+    {
+      "path": "evidence/01-employee-form.png",
+      "size": 30814,
+      "sha256": "1e5a93a86a4757e82232aa7b1ebc0781c4b5adf2b4a5764146acfa74b0ca67d7"
+    },
+    {
+      "path": "evidence/02-import-upload-prepared.png",
+      "size": 33941,
+      "sha256": "ce99ae24a751d49e48a124ecd20caf8f95b9aa80affd380b56283cdabca82343"
+    },
+    {
+      "path": "evidence/03-department-report-configuration.png",
+      "size": 53568,
+      "sha256": "ac4f5efddfc0ed95bd5ecefcaec79371e99c8319ad63f02150a2abfdf91795a1"
+    },
+    {
+      "path": "evidence/04-location-report-configuration.png",
+      "size": 66262,
+      "sha256": "bc6cfc2256a46e941e71f401a583646e82adbcb933a81f4600c5bc1b543694e8"
+    },
+    {
+      "path": "evidence/05-list-report-configuration.png",
+      "size": 64468,
+      "sha256": "9f850f967a4baf0f69457ba6b133f4aa591c29ec70193b9abe61f0aab21da22f"
+    },
+    {
+      "path": "evidence/06-dashboard-awaiting-import.png",
+      "size": 60305,
+      "sha256": "a28141cf890d95fa041551a826f3a95e43f9772438b6d8057d2f547fc15272f7"
+    },
+    {
+      "path": "evidence/07-published-baseline-csv.png",
+      "size": 102406,
+      "sha256": "02d20184dfd580908d58322f2e94dce0800181bd3e2d0996e042c00b832953d9"
+    },
+    {
+      "path": "evidence/08-baseline-staging-load.png",
+      "size": 34636,
+      "sha256": "a7fec56f1f50c9f92353252c4d375e87b2172d70fcf11d6d058ed624844593b9"
+    },
+    {
+      "path": "evidence/09-baseline-transform-success.png",
+      "size": 39470,
+      "sha256": "db7aa39c4b0407ccc9e7c6ff7e9cec1f184f7d6a7f1c7a5fac10923e96593b9f"
+    },
+    {
+      "path": "evidence/10-transform-map-coalesce.png",
+      "size": 77352,
+      "sha256": "765c839b05414ced54f0aa3b7ad50344082002b880e9951a3df3a844907443b5"
+    },
+    {
+      "path": "evidence/11-update-transform-success.png",
+      "size": 39382,
+      "sha256": "37a6f6a1d91f40236a9c71a1aef71b2cb1c84381179bd5b111d470a13f3256fc"
+    },
+    {
+      "path": "evidence/12-repeat-no-duplicates.png",
+      "size": 39425,
+      "sha256": "793b31a9394d9443130de466b8b008aae47175984ea8414297e728fedf827c18"
+    },
+    {
+      "path": "evidence/13-final-target-records.png",
+      "size": 103261,
+      "sha256": "f9c99851dae39c2c6f02bcc72b6e1b624e2fc6da035a92e5f6939b1a51ad7f13"
+    },
+    {
+      "path": "evidence/13-final-target-rows.txt",
+      "size": 2026,
+      "sha256": "206830c1b291117ee747306cd39b58867b32a5417832d8e900b6febb3341b187"
+    },
+    {
+      "path": "evidence/14-populated-dashboard.png",
+      "size": 75354,
+      "sha256": "23b264f1e5751abcef1d0df75922d7eef5f119b7bcf645c5b2fa143483c2e313"
+    },
+    {
+      "path": "evidence/15-skillwallet-review-status.png",
+      "size": 67139,
+      "sha256": "8dbf424b34a0b8d35399ae0fb5a62a8422e17783748febc9abbf8696d4db964c"
+    },
+    {
+      "path": "evidence/16-final-ordered-employee-list.png",
+      "size": 104250,
+      "sha256": "6df790486cbd9669ac3f05cc027dfcf0b67d531fb758ac272786928f541e1e43"
+    },
+    {
+      "path": "evidence/17-skillwallet-all-milestones-review.png",
+      "size": 116149,
+      "sha256": "68886ebcac7b17e7f20b5bc18969d2287685065dd49401b700872dc54d722590"
+    },
+    {
+      "path": "evidence/18-repository-readme.png",
+      "size": 109533,
+      "sha256": "ca133d52790b136107b4b8460375ef14cccd2627852b34d6a8b0558320e2c833"
+    },
+    {
+      "path": "evidence/19-dashboard-recheck-2026-09-30.png",
+      "size": 75656,
+      "sha256": "04fcc46ad202e3bfb644e6d99cfd88b595b239f94d2c6ff2fc4c4923db118798"
+    },
+    {
+      "path": "evidence/20-transform-map-settings-current.png",
+      "size": 70752,
+      "sha256": "7978b759c6a7994e1c1099ffe7da5cfc4ced1adfc99d72fce99529092969e91a"
+    },
+    {
+      "path": "evidence/21-five-field-maps-coalesce-current.png",
+      "size": 64670,
+      "sha256": "e8079bfe74dba484d6a3ede32b8c88267da6c458d2d62299783ab5617069fba5"
+    },
+    {
+      "path": "evidence/22-transform-histories-current.png",
+      "size": 58640,
+      "sha256": "319460fd95bc32874dce0c1543e73eeb198773227478149a28cf00ce237c1894"
+    },
+    {
+      "path": "evidence/final-data-reconciliation.json",
+      "size": 417,
+      "sha256": "22b03be02bddfa66d74500faf1e49d09bfbe71ad66b2562e4b1a709cd7e2e40a"
+    },
+    {
+      "path": "evidence/final-target-ui-data.json",
+      "size": 1847,
+      "sha256": "8fabe82c5973813f2ce5fc06e4295bb7c5e9b5fb26167d0004f8976695d4a264"
+    },
+    {
+      "path": "evidence/final-target-validation.json",
+      "size": 1607,
+      "sha256": "7469b943bdc0253ea063aa3abccad543871b3d562d69cee2f984510ca62a3206"
+    },
+    {
+      "path": "evidence/final-target-validation.md",
+      "size": 1412,
+      "sha256": "3167cc8c962c22dd0947271b9ce1913c07d424d6f7e8f3ab87d1b0bce917cafd"
+    },
+    {
+      "path": "evidence/README.md",
+      "size": 1629,
+      "sha256": "2fd1a8a1ce58508aa1f9083bfa2f50c52774123a74f5f6868d627d9881275c13"
+    },
+    {
+      "path": "README.md",
+      "size": 4423,
+      "sha256": "d316f8ce2ac3961f1c7d286a4606f366c65042a2ddd296fea6ada0b6791fa4c4"
+    }
+  ]
+}

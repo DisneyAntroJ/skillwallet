@@ -1,0 +1,51 @@
+{
+  "verified_at_utc": "2026-09-29T10:14:54+00:00",
+  "method": "Independent exact cell comparison keyed by Employee ID against the captured ServiceNow UI rows",
+  "source": "final-target-ui-data.json",
+  "source_row_order": [
+    "Department",
+    "Email",
+    "Employee ID",
+    "Employee Name",
+    "Location"
+  ],
+  "source_sha256": "8fabe82c5973813f2ce5fc06e4295bb7c5e9b5fb26167d0004f8976695d4a264",
+  "expected": "Expected Final Target.csv",
+  "expected_sha256": "dfaa45932e7bf66f9ca98d508c50863a29867ffcc62a09d7aafe4f27877425b8",
+  "actual_csv": "Actual Final Target (UI Verified).csv",
+  "actual_csv_sha256": "dfaa45932e7bf66f9ca98d508c50863a29867ffcc62a09d7aafe4f27877425b8",
+  "actual_csv_sort": "Employee ID ascending",
+  "record_count": 17,
+  "unique_employee_ids": 17,
+  "compared_fields": [
+    "Employee ID",
+    "Employee Name",
+    "Email",
+    "Department",
+    "Location"
+  ],
+  "compared_cells": 85,
+  "matching_cells": 85,
+  "missing_ids": [],
+  "unexpected_ids": [],
+  "empty_values": 0,
+  "mismatches": [],
+  "department_counts": {
+    "Salesforce": 8,
+    "ServiceNow": 9
+  },
+  "location_counts": {
+    "Bengaluru": 2,
+    "Chennai": 4,
+    "Coimbatore": 2,
+    "Erode": 1,
+    "Hyderabad": 1,
+    "Madurai": 2,
+    "Salem": 1,
+    "Thanjavur": 1,
+    "Tiruchirappalli": 1,
+    "Tirunelveli": 1,
+    "Vellore": 1
+  },
+  "provenance_note": "CSV transcribed from the saved UI capture, not a ServiceNow export endpoint. This comparison verifies captured final values; transform-run counts are evidenced separately."
+}

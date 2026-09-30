@@ -1,0 +1,22 @@
+{
+  "row_count": 17,
+  "unique_ids": 17,
+  "all_five_fields_match_expected": true,
+  "department_counts": {
+    "Salesforce": 8,
+    "ServiceNow": 9
+  },
+  "location_counts": {
+    "Chennai": 4,
+    "Tiruchirappalli": 1,
+    "Madurai": 2,
+    "Bengaluru": 2,
+    "Vellore": 1,
+    "Salem": 1,
+    "Hyderabad": 1,
+    "Erode": 1,
+    "Thanjavur": 1,
+    "Coimbatore": 2,
+    "Tirunelveli": 1
+  }
+}
