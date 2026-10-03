@@ -7,7 +7,7 @@
   ],
   "google_document": "https://docs.google.com/document/d/1LFzab42jFeOn9L5nKm1muUL8pDDFKQp9AvjMeIc7vPs/edit",
   "archive": "Transform_Maps_Project_Package.zip",
-  "archive_contains": "Curated source data, consolidated six-phase documentation, setup guides and recorded evidence; no video or credentials.",
+  "archive_contains": "Source data, six-phase documentation, setup guides, recorded evidence and the completed narrated demo. No credentials or voiceover preparation files.",
   "files": [
     {
       "path": "data/Actual Final Target (UI Verified).csv",
@@ -45,24 +45,29 @@
       "sha256": "3842d1338f7d11932f41af7023d20239c35fdee5fdbddc2beb5d220c0e73027f"
     },
     {
+      "path": "demo/Transform_Maps_Project_Demo.mp4",
+      "size": 5928066,
+      "sha256": "373e76eca7298751b4721e9c180c7db06e2c08324a74ae7c6f29d975d5b4a48d"
+    },
+    {
       "path": "docs/csv-https-import.md",
       "size": 6439,
       "sha256": "89694bad7d22bab4d18ec3295800286664f82540503c0219e53f5f0ec444be01"
     },
     {
       "path": "docs/project-runbook.md",
-      "size": 5541,
-      "sha256": "66f5ce71ba9976a8c663de7daa3340e2e283439a22c6bd98173c11720f12e425"
+      "size": 5597,
+      "sha256": "efc30f17454fd2ddfaa5acbac5d7ec1ccd1ca7e42fed224bb4f36ac1599f15d6"
     },
     {
       "path": "docs/Transform_Maps_Six_Phase_Project_Documentation.docx",
-      "size": 720315,
-      "sha256": "f00bb32709fe900e7f9dd232984f5507568fe6d3f510cd6f3c98509607531d4a"
+      "size": 720659,
+      "sha256": "6540da9b75f0e44e4ff228fd294b73b0216adc1df24618f2ca6abcbb443bff6a"
     },
     {
       "path": "docs/Transform_Maps_Six_Phase_Project_Documentation.pdf",
-      "size": 1211879,
-      "sha256": "fd2d8ba316b994513807cbdfaa1cc4360644abdcc7ab8c86d3356b4b0aafc175"
+      "size": 1291935,
+      "sha256": "922f0582e16dfcfb6105334ac1ff54bec5a3f7bd7344b236e5c430cd0adb9911"
     },
     {
       "path": "evidence/01-employee-form.png",
@@ -200,14 +205,24 @@
       "sha256": "3167cc8c962c22dd0947271b9ce1913c07d424d6f7e8f3ab87d1b0bce917cafd"
     },
     {
+      "path": "evidence/github-published.png",
+      "size": 107256,
+      "sha256": "a206fbd8c56ba4eb94264073f2da2add3ebb4f56bee3998372a475301a4873f1"
+    },
+    {
+      "path": "evidence/google-doc-created.png",
+      "size": 186935,
+      "sha256": "820e136246637c48f2837ae514ae84c44ee72c133285a74c80345185b2961796"
+    },
+    {
       "path": "evidence/README.md",
       "size": 1629,
       "sha256": "2fd1a8a1ce58508aa1f9083bfa2f50c52774123a74f5f6868d627d9881275c13"
     },
     {
       "path": "README.md",
-      "size": 4423,
-      "sha256": "d316f8ce2ac3961f1c7d286a4606f366c65042a2ddd296fea6ada0b6791fa4c4"
+      "size": 4679,
+      "sha256": "7f350957a09ad06676ea0e2979802d099e61c6d661b52561df4380ac2babca52"
     }
   ]
 }

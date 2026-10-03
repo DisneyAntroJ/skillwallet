@@ -2,7 +2,7 @@
 
 Project: Import Data using Transform Maps (Spreadsheet). Team: Disney Antro J, Praveen N and Sibin P.
 
-Use the complete `Transform_Maps_Project_Package.zip` for the definitive folder structure. Extract it, open its README, and keep `docs`, `data`, and `evidence` together. This guide records the implemented configuration and explains how to reproduce it; it is not a one-click instance installer or a configuration export.
+Use the complete `Transform_Maps_Project_Package.zip` for the definitive folder structure. Extract it, open its README, and keep `docs`, `data`, `evidence`, and `demo` together. This guide records the implemented configuration and explains how to reproduce it; it is not a one-click instance installer or a configuration export.
 
 ## Environment and prerequisites
 
@@ -58,4 +58,4 @@ Use Employee Test for all three saved Platform Analytics visualizations: Employe
 
 Read the consolidated six-phase document, `evidence/README.md` and `evidence/final-target-validation.md`. Screenshots 08–14 show the recorded imports and final dashboard; screenshots 19–22 recheck the current dashboard, map and histories. Earlier screenshots 02 and 06 show historical pre-import states only.
 
-SkillWallet was observed at 90% with all nine tasks in Review. Review status is separate from verified configuration and test results. The captioned silent walkthrough remains local until the team records its voiceover; no final narrated demo is claimed. Formal UAT signoff and four supplementary negative source-preparation cases remain pending.
+SkillWallet was observed at 90% with all nine tasks in Review. Review status is separate from verified configuration and test results. The completed narrated video is included as `demo/Transform_Maps_Project_Demo.mp4`. Watch it at https://drive.google.com/file/d/1gonx-uMMW-M-BO6GmONjhmYsgV-luIr7/view. Formal UAT signoff and four supplementary negative source-preparation cases remain pending.
