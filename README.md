@@ -33,6 +33,6 @@ The final target contains **17 employees with 17 unique IDs**, and **85/85 field
 
 ## Submission status
 
-The last verified SkillWallet status was **90%, with all nine tasks in Review**. Human tester and team-lead signatures, genuine sprint records, and faculty/reviewer approval remain pending. Passed technical checks do not establish final platform acceptance.
+The last verified SkillWallet status was **90%, with all nine tasks in Review**. Human tester and team-lead signatures and faculty/reviewer approval remain pending. Phase 4 records the shared project work period retrospectively as 29 September–3 October 2026, from the first implementation request through corrected technical publication. This covers five calendar dates inclusively and applies to all three work groups; it is not a record of individually timed sprints or five full working days. Original planned sprint deadlines and accepted points remain unrecorded. Passed technical checks do not establish final platform acceptance.
 
 [Open the live dashboard — ServiceNow sign-in required](https://dev230529.service-now.com/now/platform-analytics-workspace/dashboards/params/edit/false/sys-id/549ca1bac36f8b54c34b78cc05013131).
