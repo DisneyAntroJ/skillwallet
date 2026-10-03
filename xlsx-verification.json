@@ -1,0 +1,78 @@
+{
+  "verified_at_utc": "2026-10-03T13:52:13.604109+00:00",
+  "instance": "dev230529.service-now.com",
+  "method": "ServiceNow Load Data: File upload of actual XLSX, Sheet 1, header row 1; existing staging table and saved map",
+  "scope": "Replay against 17 existing target records. Original empty-target insert results are separate CSV histories TH0001001 to TH0001003.",
+  "target_table": "u_employee_test",
+  "staging_table": "u_employee_import",
+  "transform_map": "Sample Spreadsheet Import",
+  "histories": [
+    {
+      "file": "Sample Spreadsheet.xlsx",
+      "run": "baseline",
+      "import_set": "ISET0010004",
+      "history": "TH0001004",
+      "total": 15,
+      "inserted": 0,
+      "updated": 2,
+      "ignored": 13,
+      "skipped": 0,
+      "errors": 0,
+      "state": "Complete",
+      "displayed_duration": "0 Seconds"
+    },
+    {
+      "file": "Updated Sample Spreadsheet.xlsx",
+      "run": "delta",
+      "import_set": "ISET0010005",
+      "history": "TH0001005",
+      "total": 4,
+      "inserted": 0,
+      "updated": 2,
+      "ignored": 2,
+      "skipped": 0,
+      "errors": 0,
+      "state": "Complete",
+      "displayed_duration": "0 Seconds"
+    },
+    {
+      "file": "Updated Sample Spreadsheet.xlsx",
+      "run": "repeat",
+      "import_set": "ISET0010006",
+      "history": "TH0001006",
+      "total": 4,
+      "inserted": 0,
+      "updated": 0,
+      "ignored": 4,
+      "skipped": 0,
+      "errors": 0,
+      "state": "Complete",
+      "displayed_duration": "0 Seconds"
+    }
+  ],
+  "final_records": 17,
+  "unique_employee_ids": 17,
+  "matched_values": 85,
+  "compared_values": 85,
+  "retained_sys_ids": 17,
+  "sys_ids_compared": 17,
+  "department_counts": {
+    "ServiceNow": 9,
+    "Salesforce": 8
+  },
+  "location_counts": {
+    "Chennai": 4,
+    "Coimbatore": 2,
+    "Madurai": 2,
+    "Tiruchirappalli": 1,
+    "Salem": 1,
+    "Bengaluru": 2,
+    "Hyderabad": 1,
+    "Tirunelveli": 1,
+    "Erode": 1,
+    "Thanjavur": 1,
+    "Vellore": 1
+  },
+  "status": "Pass",
+  "throughput": "Unavailable: transform history durations round to 0 Seconds."
+}

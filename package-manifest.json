@@ -51,23 +51,23 @@
     },
     {
       "path": "docs/csv-https-import.md",
-      "size": 6439,
-      "sha256": "89694bad7d22bab4d18ec3295800286664f82540503c0219e53f5f0ec444be01"
+      "size": 6648,
+      "sha256": "7c7736dfc010f72a2ea8bebc682b87f075c0d610d87e606fefaa9b2fabad9a4d"
     },
     {
       "path": "docs/project-runbook.md",
-      "size": 5597,
-      "sha256": "efc30f17454fd2ddfaa5acbac5d7ec1ccd1ca7e42fed224bb4f36ac1599f15d6"
+      "size": 7207,
+      "sha256": "4e106394c83f10fbdf493bada180364697389eeade4a52f24711412ac6b8f01f"
     },
     {
       "path": "docs/Transform_Maps_Six_Phase_Project_Documentation.docx",
-      "size": 720659,
-      "sha256": "6540da9b75f0e44e4ff228fd294b73b0216adc1df24618f2ca6abcbb443bff6a"
+      "size": 721195,
+      "sha256": "dcd5b3c169791c7b11d1358afb3038eeaf59153ce72648b8a90c5a25d721f4db"
     },
     {
       "path": "docs/Transform_Maps_Six_Phase_Project_Documentation.pdf",
-      "size": 1291935,
-      "sha256": "922f0582e16dfcfb6105334ac1ff54bec5a3f7bd7344b236e5c430cd0adb9911"
+      "size": 1297197,
+      "sha256": "18697e2b7d6ede17552071da935e86158d1e9719a460952cf9a0963c2bd6dd2a"
     },
     {
       "path": "evidence/01-employee-form.png",
@@ -185,6 +185,66 @@
       "sha256": "319460fd95bc32874dce0c1543e73eeb198773227478149a28cf00ce237c1894"
     },
     {
+      "path": "evidence/23-xlsx-baseline-upload.png",
+      "size": 35432,
+      "sha256": "3f00b91f17fe42cf7a8e39665749601d4b1bc69c9628c07600eb93b4eef93935"
+    },
+    {
+      "path": "evidence/24-xlsx-baseline-staging.png",
+      "size": 38581,
+      "sha256": "a74c9138e218e101fca8402cdfb690ee1d2bfb14006c712a06fd640c881edae3"
+    },
+    {
+      "path": "evidence/25-xlsx-baseline-transform.png",
+      "size": 39223,
+      "sha256": "143803ea63fa1115e10d57461ff00d62f7d363e7561f543ed35fd3e0448c2315"
+    },
+    {
+      "path": "evidence/26-xlsx-delta-upload.png",
+      "size": 35784,
+      "sha256": "56c829e6dd98c3e37ebf38c019f2af243b5ef86e53a31da8b52d958f3555fe5d"
+    },
+    {
+      "path": "evidence/27-xlsx-delta-staging.png",
+      "size": 38508,
+      "sha256": "741356dc76f63479e206e6af6f0d1018c5b5e5caaf121f3c799fd8ae2aef6152"
+    },
+    {
+      "path": "evidence/28-xlsx-delta-transform.png",
+      "size": 39052,
+      "sha256": "f7eeb070b5e025bd38f513898ed795cc0b6564c42ac652971928a73101fed58a"
+    },
+    {
+      "path": "evidence/29-xlsx-repeat-staging.png",
+      "size": 38508,
+      "sha256": "37134371444cc9e95148f0efa9b52345cbd6aee5875633abedcca8d914fdbe52"
+    },
+    {
+      "path": "evidence/30-xlsx-repeat-transform.png",
+      "size": 39085,
+      "sha256": "170f2265e335e511c24008d6361a5ef4c719e7d82f6dd3d40592453fc34bdcf7"
+    },
+    {
+      "path": "evidence/31-xlsx-final-target.png",
+      "size": 103935,
+      "sha256": "6dd7650a3ee4e5fa84e0e5f5d1471a2b8d087d3c01eb2246d4133ac7c4afc7ac"
+    },
+    {
+      "path": "evidence/32-xlsx-verified-map.png",
+      "size": 78844,
+      "sha256": "23567ee459f9cbda2c825d9cef6abe8ad8671ba1ab5cfd6906ca3f9e072a7f66"
+    },
+    {
+      "path": "evidence/33-employee-import-label.png",
+      "size": 28495,
+      "sha256": "fddcc6d7e4cdabfbd4f04acc6e659172a489742ef16554c796e7b03c14bbe66b"
+    },
+    {
+      "path": "evidence/34-dashboard-after-xlsx.png",
+      "size": 76348,
+      "sha256": "ac989bf1712189010ac24184e3810cb17bd3075043aba69e844b6a9364c7c6e2"
+    },
+    {
       "path": "evidence/final-data-reconciliation.json",
       "size": 417,
       "sha256": "22b03be02bddfa66d74500faf1e49d09bfbe71ad66b2562e4b1a709cd7e2e40a"
@@ -215,14 +275,69 @@
       "sha256": "820e136246637c48f2837ae514ae84c44ee72c133285a74c80345185b2961796"
     },
     {
+      "path": "evidence/negative-source-checks.json",
+      "size": 2506,
+      "sha256": "023b5acdec512ce9d7f7c8b51a8c4badbee47cb7a19eb482b25c9ef87e80a3bf"
+    },
+    {
+      "path": "evidence/negative-source-checks.md",
+      "size": 1242,
+      "sha256": "75e59c959860db1b1bb0419aec4b2328a0f70b3776cfb63d8ac6ab2af9b854f3"
+    },
+    {
       "path": "evidence/README.md",
-      "size": 1629,
-      "sha256": "2fd1a8a1ce58508aa1f9083bfa2f50c52774123a74f5f6868d627d9881275c13"
+      "size": 2169,
+      "sha256": "11bc2b4218e45f9165a8235f0dac52da2460633c4797fdd52d92637a6583f4dd"
+    },
+    {
+      "path": "evidence/xlsx-baseline-history.txt",
+      "size": 435,
+      "sha256": "9d0eca48a9dbd8559ca1b533e7916b211174228d3d59ae1b6fcb1f7772c1d36d"
+    },
+    {
+      "path": "evidence/xlsx-delta-history.txt",
+      "size": 433,
+      "sha256": "aa8146becfc58714ffec670e705ad1fa440dee6bdd6869891e0c22a78e18e7c8"
+    },
+    {
+      "path": "evidence/xlsx-repeat-history.txt",
+      "size": 433,
+      "sha256": "00a5bbf05f0c28277a6361c007df251b2ba90b0667c153d1569d33523b7699f5"
+    },
+    {
+      "path": "evidence/xlsx-target-after-baseline.json",
+      "size": 6267,
+      "sha256": "ae491c4c1bfa21845a113c50f5b0ddb2e849a348aac31fb1003f2a8f587de2e7"
+    },
+    {
+      "path": "evidence/xlsx-target-after-repeat.json",
+      "size": 6258,
+      "sha256": "1db68437d49dd448ad423b9d5176023750e159163459b9ddfcbaeac96cd32a56"
+    },
+    {
+      "path": "evidence/xlsx-target-before.json",
+      "size": 6258,
+      "sha256": "1db68437d49dd448ad423b9d5176023750e159163459b9ddfcbaeac96cd32a56"
+    },
+    {
+      "path": "evidence/xlsx-verification.json",
+      "size": 2161,
+      "sha256": "065d21983c0c5d4f1a1971d9b291bd2abe0e1e0b5bda6f4bc89a96cb16e91d16"
+    },
+    {
+      "path": "evidence/xlsx-verification.md",
+      "size": 3265,
+      "sha256": "b0967b4e1648aae8fe39dbb53d1899be638369e81f38420b241f26756cd82708"
+    },
+    {
+      "path": "qa/validate_import_sources.py",
+      "size": 5953,
+      "sha256": "dbb89752329b4bb17f18d26007c5bfcea31a4137563d16e1245f35b1912f3803"
     },
     {
       "path": "README.md",
-      "size": 4679,
-      "sha256": "7f350957a09ad06676ea0e2979802d099e61c6d661b52561df4380ac2babca52"
+      "size": 6030,
+      "sha256": "85a4b2e87e1dd84e144887c27a1a9dbd9e2e3e12a3d21cd92eb13f34fd83814f"
     }
   ]
 }

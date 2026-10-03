@@ -28,7 +28,9 @@ Table label: **Employee Test**. Internal name: `u_employee_test`, Global scope. 
 
 ## 3. Load the source into staging
 
-Use System Import Sets and the project staging table `u_employee_import`. Actual execution used CSV retrieved through an HTTPS File data source. See `docs/csv-https-import.md` in the extracted package. The original XLSX files remain included as deliverables; do not describe the recorded runs as an XLSX attachment import.
+Open **System Import Sets → Load Data**. Select **File** and upload `Sample Spreadsheet.xlsx`, with Sheet number **1** and Header row **1**. Choose the existing **Employee Import [u_employee_import]** table. On a fresh instance, create the staging table with that label and internal name. Inspect the loaded rows before running the saved map. For the update and repeat, select `Updated Sample Spreadsheet.xlsx` and reuse the same table and map.
+
+Actual XLSX uploads were verified on 3 October 2026 as ISET0010004–ISET0010006. The historical CSV-over-HTTPS route is retained in `docs/csv-https-import.md` because it was used in the original recorded demonstration.
 
 Inspect staging separately from the target. The recorded baseline staging load processed and inserted 15 rows with zero errors. Staging inserts do not prove a target transform succeeded.
 
@@ -44,7 +46,7 @@ Run the map on the baseline import set and inspect history plus target data. Rec
 
 Load the four-row delta into the same staging table, then use the same map. SB-0004 changes Ajay Kumar to Ajay; SB-0010 changes email to test18@example.com; SB-0016 and SB-0017 are new IDs. Recorded TH0001002: total 4, inserted 2, updated 2, ignored 0, errors 0. The final project target contained 17 unique IDs.
 
-For stronger evidence in a fresh reproduction, retain target sys_id values before and after the update. These snapshots were not retained for the recorded run; its update evidence is transform history plus final values.
+Retain target sys_id values before and after the update. The later Excel replay preserved all 17 record identities; its before, baseline and final snapshots are in `evidence/xlsx-target-*.json`. The original CSV run is supported by history counts and final values.
 
 ## 7. Repeat and reconcile
 
@@ -56,6 +58,12 @@ Use Employee Test for all three saved Platform Analytics visualizations: Employe
 
 ## 9. Review the evidence and submission
 
-Read the consolidated six-phase document, `evidence/README.md` and `evidence/final-target-validation.md`. Screenshots 08–14 show the recorded imports and final dashboard; screenshots 19–22 recheck the current dashboard, map and histories. Earlier screenshots 02 and 06 show historical pre-import states only.
+Read the consolidated six-phase document, `evidence/README.md` and `evidence/xlsx-verification.md`. Screenshots 08–14 show the original imports and dashboard; 19–22 recheck saved configuration; 23–33 record the actual Excel uploads, transform results, final records and corrected staging label. Earlier screenshots 02 and 06 show historical pre-import states only.
 
-SkillWallet was observed at 90% with all nine tasks in Review. Review status is separate from verified configuration and test results. The completed narrated video is included as `demo/Transform_Maps_Project_Demo.mp4`. Watch it at https://drive.google.com/file/d/1gonx-uMMW-M-BO6GmONjhmYsgV-luIr7/view. Formal UAT signoff and four supplementary negative source-preparation cases remain pending.
+The Excel replay started with 17 employees. TH0001004 processed 15 rows: 0 inserts, 2 updates and 13 ignored. TH0001005 processed 4 rows: 0 inserts, 2 updates and 2 ignored. TH0001006 processed 4 rows: 0 inserts, 0 updates and 4 ignored. Every run had zero errors. Final reconciliation passed for 85/85 values and all 17 original record IDs.
+
+Four local source checks passed: blank ID, duplicate ID, wrong header and omitted Name mapping. Run `python qa/validate_import_sources.py --data-dir data --output-dir evidence` from the extracted package to reproduce them. The original workbooks are read-only; invalid copies stay in memory. No ServiceNow rejection rule is implied.
+
+SkillWallet was observed at 90% with all nine tasks in Review. All 19 recorded technical cases passed; human acceptance is separate. The narrated original CSV demonstration is `demo/Transform_Maps_Project_Demo.mp4`, available at https://drive.google.com/file/d/1gonx-uMMW-M-BO6GmONjhmYsgV-luIr7/view. The report includes the later Excel verification.
+
+The human tester must inspect the final records and dashboard, play the demo, check repository files, then enter their own name, date and signature in Phase 5. The team lead must supply real Phase 4 sprint records and acceptance; the faculty/reviewer must record their own approval. If sprint dates were never recorded, keep Not recorded and ask the faculty how to complete that record. Do not substitute estimated dates or planning points for actual results. Use the final checklist in `evidence/xlsx-verification.md`.

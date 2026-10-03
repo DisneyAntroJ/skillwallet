@@ -1,0 +1,91 @@
+{
+  "verified_at_utc": "2026-10-03T13:13:46.209244+00:00",
+  "scope": "Local source-preparation and mapping-contract checks. These are not ServiceNow server-side rejection tests.",
+  "controls": [
+    {
+      "file": "Sample Spreadsheet.xlsx",
+      "rows": 15,
+      "sha256": "dbe30ef5a6429084b9cdb2c8cf16bddcaa9c0eae1c18f827e98b70bf5722c05c",
+      "errors": [],
+      "status": "Pass"
+    },
+    {
+      "file": "Updated Sample Spreadsheet.xlsx",
+      "rows": 4,
+      "sha256": "3842d1338f7d11932f41af7023d20239c35fdee5fdbddc2beb5d220c0e73027f",
+      "errors": [],
+      "status": "Pass"
+    }
+  ],
+  "field_map_contract": {
+    "Employee ID": "u_employee_id",
+    "Name": "u_employee_name",
+    "Email": "u_email",
+    "Department": "u_department",
+    "Location": "u_location"
+  },
+  "negative_cases": [
+    {
+      "id": "NC01",
+      "scenario": "Blank Employee ID",
+      "method": "Disposable in-memory copy; local pre-import validator",
+      "expected": "REQUIRED_VALUE",
+      "detected": [
+        {
+          "code": "REQUIRED_VALUE",
+          "row": 2,
+          "field": "Employee ID"
+        }
+      ],
+      "status": "Pass"
+    },
+    {
+      "id": "NC02",
+      "scenario": "Repeated source ID",
+      "method": "Disposable in-memory copy; local pre-import validator",
+      "expected": "DUPLICATE_ID",
+      "detected": [
+        {
+          "code": "DUPLICATE_ID",
+          "row": 3,
+          "first_row": 2,
+          "employee_id": "SB-0001"
+        }
+      ],
+      "status": "Pass"
+    },
+    {
+      "id": "NC03",
+      "scenario": "Wrong required header",
+      "method": "Disposable in-memory copy; local pre-import validator",
+      "expected": "HEADERS",
+      "detected": [
+        {
+          "code": "HEADERS",
+          "message": "Expected the five headers in the agreed order."
+        }
+      ],
+      "status": "Pass"
+    },
+    {
+      "id": "NC04",
+      "scenario": "Missing Name mapping",
+      "method": "Disposable in-memory copy; local pre-import validator",
+      "expected": "FIELD_MAPPING",
+      "detected": [
+        {
+          "code": "FIELD_MAPPING",
+          "source": "Name",
+          "expected_target": "u_employee_name",
+          "actual_target": null
+        }
+      ],
+      "status": "Pass"
+    }
+  ],
+  "negative_passed": 4,
+  "negative_failed": 0,
+  "negative_not_run": 0,
+  "original_files_modified": false,
+  "invalid_data_uploaded": false
+}
