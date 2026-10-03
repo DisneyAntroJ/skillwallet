@@ -19,8 +19,8 @@ Reproduce with Python 3 from the extracted project ZIP:
 python qa/validate_import_sources.py --data-dir data --output-dir evidence
 ```
 
-From the flat GitHub repository folder instead:
+From the GitHub repository root instead:
 
 ```text
-python validate_import_sources.py --data-dir . --output-dir evidence
+python supporting-files/validate_import_sources.py --data-dir . --output-dir evidence
 ```
