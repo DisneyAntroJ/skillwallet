@@ -1,6 +1,6 @@
 # CSV import through an HTTPS File data source
 
-Historical note: the following guide records the original CSV demonstration. Actual XLSX attachment imports were subsequently verified on 3 October 2026; see xlsx-verification.md.
+Historical note: the following guide records the original CSV demonstration. The final XLSX sequence from an empty target was verified on 3 October 2026 as TH0001007–TH0001009; see strict-xlsx-verification.md.
 
 This approved alternative to the blocked local file selector was used successfully. Both synthetic source CSVs are published in the linked public GitHub repository and were retrieved through ServiceNow's normal data-source UI. Baseline, delta and repeat transformations completed with no errors. The original XLSX workbooks remain project deliverables; the CSV files contain the same source values.
 
@@ -58,4 +58,4 @@ The Load Data form also offers **Data source** under **Source of the import**, a
 - Each load's import set ID, row count, and errors; each separate transform run and its actual results.
 - Baseline 15 records from an empty project target, delta final 17 unique IDs, and repeat zero new inserts, once demonstrated.
 
-The original runs in this guide used CSV retrieved over HTTPS. The separate Excel replay is documented in xlsx-verification.md. Loading a file into staging does not itself validate target data, coalesce behavior, or dashboard counts.
+The original runs in this guide used CSV retrieved over HTTPS. The later empty-target Excel sequence is documented in strict-xlsx-verification.md. Loading a file into staging does not itself validate target data, coalesce behavior, or dashboard counts.

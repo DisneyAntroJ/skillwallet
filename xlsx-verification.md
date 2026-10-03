@@ -1,3 +1,5 @@
+> Historical evidence: this populated-target replay preceded the recoverable reset. For the current empty-target XLSX baseline, delta and repeat, see [strict-xlsx-verification.md](strict-xlsx-verification.md).
+
 # Excel import verification — 3 October 2026
 
 The actual `.xlsx` workbooks were uploaded through ServiceNow **Load Data**, using File, Sheet 1 and header row 1. All three imports used the existing `u_employee_import` staging table and **Sample Spreadsheet Import** map into `u_employee_test`.

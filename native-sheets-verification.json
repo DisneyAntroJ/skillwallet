@@ -1,0 +1,70 @@
+{
+  "verified_at_utc": "2026-10-03T14:54:31.328835+00:00",
+  "method": "Exact existing workbook files imported as native Google Sheets using the Drive conversion API; native A1:E16 and A1:E5 readback compared against original workbook values; Google XLSX exports downloaded and independently compared.",
+  "provenance_note": "Native Sheets and these downloads were created on 3 October 2026. They do not retrospectively establish Google Sheets as the source of earlier imports.",
+  "files": [
+    {
+      "role": "baseline",
+      "filename": "Sample Spreadsheet.xlsx",
+      "native_id": "1lErJU_Qs1nby-30jVSWxLws-y7H7LLkAV9IZOknm2P4",
+      "native_url": "https://docs.google.com/spreadsheets/d/1lErJU_Qs1nby-30jVSWxLws-y7H7LLkAV9IZOknm2P4/edit?usp=drivesdk",
+      "native_created_time_utc": "2026-10-03T14:53:11.716Z",
+      "native_mime_type": "application/vnd.google-apps.spreadsheet",
+      "shared": false,
+      "headers": [
+        "Employee ID",
+        "Name",
+        "Email",
+        "Department",
+        "Location"
+      ],
+      "data_rows": 15,
+      "native_data_cells_matched": 75,
+      "native_data_cells_compared": 75,
+      "google_export_data_cells_matched": 75,
+      "google_export_data_cells_compared": 75,
+      "original_sha256": "dbe30ef5a6429084b9cdb2c8cf16bddcaa9c0eae1c18f827e98b70bf5722c05c",
+      "original_unchanged_since_source_checks": true,
+      "google_export_sha256": "2e6e84f78f9f5ad27453360c76217b4c5be231cccb092e02e7aae7c42a4d69d5",
+      "google_export_bytes": 9041,
+      "status": "Pass"
+    },
+    {
+      "role": "delta",
+      "filename": "Updated Sample Spreadsheet.xlsx",
+      "native_id": "1K9lTCijrxN4YIwR-ToZZ0WEp5LYWSp3Y3T78TslKgnE",
+      "native_url": "https://docs.google.com/spreadsheets/d/1K9lTCijrxN4YIwR-ToZZ0WEp5LYWSp3Y3T78TslKgnE/edit?usp=drivesdk",
+      "native_created_time_utc": "2026-10-03T14:53:24.693Z",
+      "native_mime_type": "application/vnd.google-apps.spreadsheet",
+      "shared": false,
+      "headers": [
+        "Employee ID",
+        "Name",
+        "Email",
+        "Department",
+        "Location"
+      ],
+      "data_rows": 4,
+      "native_data_cells_matched": 20,
+      "native_data_cells_compared": 20,
+      "google_export_data_cells_matched": 20,
+      "google_export_data_cells_compared": 20,
+      "original_sha256": "3842d1338f7d11932f41af7023d20239c35fdee5fdbddc2beb5d220c0e73027f",
+      "original_unchanged_since_source_checks": true,
+      "google_export_sha256": "49ebda6f338807f33505f3ada8ad7d902e43cdb6f4396795d35f5548c777aa9b",
+      "google_export_bytes": 8451,
+      "status": "Pass"
+    }
+  ],
+  "data_cells_matched": 95,
+  "data_cells_compared": 95,
+  "both_header_rows_match": true,
+  "original_workbooks_modified": false,
+  "sharing_permissions_changed": false,
+  "visual_verification": "Pass: both native Sheets inspected in the browser on 3 October 2026; screenshots 48 and 49",
+  "visual_evidence": [
+    "48-native-baseline-google-sheet.png",
+    "49-native-delta-google-sheet.png"
+  ],
+  "google_exports_in_package": "data/google-sheets-export/"
+}

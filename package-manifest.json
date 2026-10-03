@@ -7,12 +7,13 @@
   ],
   "google_document": "https://docs.google.com/document/d/1LFzab42jFeOn9L5nKm1muUL8pDDFKQp9AvjMeIc7vPs/edit",
   "archive": "Transform_Maps_Project_Package.zip",
-  "archive_contains": "Source data, six-phase documentation, setup guides, recorded evidence and the completed narrated demo. No credentials or voiceover preparation files.",
+  "current_target_after_history": "TH0001009",
+  "archive_contains": "Source data, six-phase documentation, setup guides, current and historical evidence and the completed narrated demo. No credentials, private XML backups or voiceover preparation files.",
   "files": [
     {
       "path": "data/Actual Final Target (UI Verified).csv",
-      "size": 1184,
-      "sha256": "dfaa45932e7bf66f9ca98d508c50863a29867ffcc62a09d7aafe4f27877425b8"
+      "size": 1187,
+      "sha256": "643e01eb4d6f79d061d9370554be483d3baecb3113e9c2c96cd8a624dc85adef"
     },
     {
       "path": "data/Expected Final Target.csv",
@@ -20,9 +21,24 @@
       "sha256": "dfaa45932e7bf66f9ca98d508c50863a29867ffcc62a09d7aafe4f27877425b8"
     },
     {
+      "path": "data/google-sheets-export/README.md",
+      "size": 475,
+      "sha256": "83524983e8d060a333eec565fc939020552b9e0c4be6b6543d2572c48edda506"
+    },
+    {
+      "path": "data/google-sheets-export/Sample Spreadsheet.xlsx",
+      "size": 9041,
+      "sha256": "2e6e84f78f9f5ad27453360c76217b4c5be231cccb092e02e7aae7c42a4d69d5"
+    },
+    {
+      "path": "data/google-sheets-export/Updated Sample Spreadsheet.xlsx",
+      "size": 8451,
+      "sha256": "49ebda6f338807f33505f3ada8ad7d902e43cdb6f4396795d35f5548c777aa9b"
+    },
+    {
       "path": "data/README.md",
-      "size": 3479,
-      "sha256": "aa1a7aec4a063450be60008263db1e7d66797aa2850885e1d1ebedd96758929d"
+      "size": 4849,
+      "sha256": "64ecdaa054d2307265273051d5c9ba22f7fe3ade56cafefb4aa7f2331850c6e0"
     },
     {
       "path": "data/Sample Spreadsheet.csv",
@@ -51,23 +67,23 @@
     },
     {
       "path": "docs/csv-https-import.md",
-      "size": 6648,
-      "sha256": "7c7736dfc010f72a2ea8bebc682b87f075c0d610d87e606fefaa9b2fabad9a4d"
+      "size": 6699,
+      "sha256": "cf9124dbe539dadf1f25b4d1213305e1bed697f7cb9ae7378efd38a41e8a2d0b"
     },
     {
       "path": "docs/project-runbook.md",
-      "size": 7207,
-      "sha256": "4e106394c83f10fbdf493bada180364697389eeade4a52f24711412ac6b8f01f"
+      "size": 8356,
+      "sha256": "7612a2aa7ee56670c146e2d4f6eb8e0924734602f7b761fb219768297c9d2425"
     },
     {
       "path": "docs/Transform_Maps_Six_Phase_Project_Documentation.docx",
-      "size": 721195,
-      "sha256": "dcd5b3c169791c7b11d1358afb3038eeaf59153ce72648b8a90c5a25d721f4db"
+      "size": 721894,
+      "sha256": "3233f57ef616fa9931d54ea6d2e52b6e44d35ec06f9576c10bc5d989eff19ac2"
     },
     {
       "path": "docs/Transform_Maps_Six_Phase_Project_Documentation.pdf",
-      "size": 1297197,
-      "sha256": "18697e2b7d6ede17552071da935e86158d1e9719a460952cf9a0963c2bd6dd2a"
+      "size": 1300732,
+      "sha256": "0211a9837011d2aaf139e86f4d949a3eda4638dedfb516645f357cf0174d1428"
     },
     {
       "path": "evidence/01-employee-form.png",
@@ -245,24 +261,99 @@
       "sha256": "ac989bf1712189010ac24184e3810cb17bd3075043aba69e844b6a9364c7c6e2"
     },
     {
+      "path": "evidence/35-empty-target-before-excel.png",
+      "size": 23825,
+      "sha256": "f8ed01171d7b7a4fa67c64ddc4c6d0ef16234a04536aa5ea9cecccaa4b5f8e09"
+    },
+    {
+      "path": "evidence/36-baseline-xlsx-upload.png",
+      "size": 35487,
+      "sha256": "47f8845295f2f792a8845018face243955d7326aae05c33b8aec07650cf108b7"
+    },
+    {
+      "path": "evidence/37-baseline-xlsx-staged.png",
+      "size": 39145,
+      "sha256": "85a8bc3ac3987ebad8c03b214ea473dc727e288d6dcffa9a51683f6300ab10ac"
+    },
+    {
+      "path": "evidence/38-baseline-xlsx-15-inserts.png",
+      "size": 38562,
+      "sha256": "42a4d341977f656065d36d7641849fa65ad165b124c95e4ef625c482f672bdda"
+    },
+    {
+      "path": "evidence/39-baseline-target-15.png",
+      "size": 95133,
+      "sha256": "17954b2f8ec4643a5e396377d92f9f7d6d8ded78ac55402919d084d0120b821f"
+    },
+    {
+      "path": "evidence/40-delta-xlsx-upload.png",
+      "size": 35905,
+      "sha256": "c0fcdf74f32e36ca6b76570df1b58ff4f8920d9f43d09465491a26d4d03bbf9e"
+    },
+    {
+      "path": "evidence/41-delta-xlsx-staged.png",
+      "size": 39062,
+      "sha256": "92264bcde1009aa8773b099472c4765c3c24eda37a3c8f37ab19bdfbce66777d"
+    },
+    {
+      "path": "evidence/42-delta-xlsx-2-inserts-2-updates.png",
+      "size": 38452,
+      "sha256": "c9f0584513048ced846dd16a5bb70a78ef015608562162606331e2b6c55f183d"
+    },
+    {
+      "path": "evidence/43-repeat-xlsx-staged.png",
+      "size": 39062,
+      "sha256": "3049a7705df93063607770398c311a843e34c95309ad9391c4db520afa20cdad"
+    },
+    {
+      "path": "evidence/44-repeat-xlsx-4-ignored.png",
+      "size": 38399,
+      "sha256": "cd4512b2c9f95ac88a39de3932252f3f59a639635c35496f67dbff3027adde5c"
+    },
+    {
+      "path": "evidence/45-final-target-17-after-excel.png",
+      "size": 104335,
+      "sha256": "99673d592702a1d4c25bed2238036160f37b4c767fd4a6e166bd0be910baf5b3"
+    },
+    {
+      "path": "evidence/46-dashboard-after-exact-excel.png",
+      "size": 84066,
+      "sha256": "5ed6340c0fc00ad295e0ce1d787bace100249769c20a6d3b4f520cd1ada11304"
+    },
+    {
+      "path": "evidence/47-current-transform-map.png",
+      "size": 78501,
+      "sha256": "fbac4dfbeb611ee73cddaa09bc9fc0263967207efea9c18736c17e234445fc09"
+    },
+    {
+      "path": "evidence/48-native-baseline-google-sheet.png",
+      "size": 148985,
+      "sha256": "29a32eb8a3100f149f096cfb68e7f3c4bd92dff0f8995ff3bf4a8ec9a69bbcb4"
+    },
+    {
+      "path": "evidence/49-native-delta-google-sheet.png",
+      "size": 83267,
+      "sha256": "be89acecfab5941bfc01d553ad975b53121962d115346aa935503e9ef9366ac5"
+    },
+    {
       "path": "evidence/final-data-reconciliation.json",
-      "size": 417,
-      "sha256": "22b03be02bddfa66d74500faf1e49d09bfbe71ad66b2562e4b1a709cd7e2e40a"
+      "size": 790,
+      "sha256": "76ee8e8bc0446294cdd123a0a1e8320d9af6c31dbd31a35821a51c8508e1b58d"
     },
     {
       "path": "evidence/final-target-ui-data.json",
-      "size": 1847,
-      "sha256": "8fabe82c5973813f2ce5fc06e4295bb7c5e9b5fb26167d0004f8976695d4a264"
+      "size": 4608,
+      "sha256": "3a174256454b10d01e03b5829e662bd1d175e9313f49b46e9030ea1fec219ab8"
     },
     {
       "path": "evidence/final-target-validation.json",
-      "size": 1607,
-      "sha256": "7469b943bdc0253ea063aa3abccad543871b3d562d69cee2f984510ca62a3206"
+      "size": 1887,
+      "sha256": "71aa945e11b75b82d562091bd63ce99c0ec00febbbe50c1876b456ff1e44c54d"
     },
     {
       "path": "evidence/final-target-validation.md",
-      "size": 1412,
-      "sha256": "3167cc8c962c22dd0947271b9ce1913c07d424d6f7e8f3ab87d1b0bce917cafd"
+      "size": 1288,
+      "sha256": "1337236bb618258b2daaed70197398a2e89e4a80e6866223cb6d7087ddc36e85"
     },
     {
       "path": "evidence/github-published.png",
@@ -273,6 +364,46 @@
       "path": "evidence/google-doc-created.png",
       "size": 186935,
       "sha256": "820e136246637c48f2837ae514ae84c44ee72c133285a74c80345185b2961796"
+    },
+    {
+      "path": "evidence/historical-csv-2026-09-29/Actual Final Target (UI Verified).csv",
+      "size": 1184,
+      "sha256": "dfaa45932e7bf66f9ca98d508c50863a29867ffcc62a09d7aafe4f27877425b8"
+    },
+    {
+      "path": "evidence/historical-csv-2026-09-29/final-data-reconciliation.json",
+      "size": 417,
+      "sha256": "22b03be02bddfa66d74500faf1e49d09bfbe71ad66b2562e4b1a709cd7e2e40a"
+    },
+    {
+      "path": "evidence/historical-csv-2026-09-29/final-target-ui-data.json",
+      "size": 1847,
+      "sha256": "8fabe82c5973813f2ce5fc06e4295bb7c5e9b5fb26167d0004f8976695d4a264"
+    },
+    {
+      "path": "evidence/historical-csv-2026-09-29/final-target-validation.json",
+      "size": 1607,
+      "sha256": "7469b943bdc0253ea063aa3abccad543871b3d562d69cee2f984510ca62a3206"
+    },
+    {
+      "path": "evidence/historical-csv-2026-09-29/final-target-validation.md",
+      "size": 1412,
+      "sha256": "3167cc8c962c22dd0947271b9ce1913c07d424d6f7e8f3ab87d1b0bce917cafd"
+    },
+    {
+      "path": "evidence/historical-csv-2026-09-29/README.md",
+      "size": 445,
+      "sha256": "27715553300ff6bedadb24f242e686f89ba077de82db775971803204b65d4a2e"
+    },
+    {
+      "path": "evidence/native-sheets-verification.json",
+      "size": 3137,
+      "sha256": "f4111b4a434ff85a7c1ac6032419c45f12ff71ad8b2d0dd06c1c094893efcd46"
+    },
+    {
+      "path": "evidence/native-sheets-verification.md",
+      "size": 2148,
+      "sha256": "0d6524bdd1085f4d59f415dbf81339f6a45172d5ee9e2df789f268a4e13c818a"
     },
     {
       "path": "evidence/negative-source-checks.json",
@@ -286,8 +417,58 @@
     },
     {
       "path": "evidence/README.md",
-      "size": 2169,
-      "sha256": "11bc2b4218e45f9165a8235f0dac52da2460633c4797fdd52d92637a6583f4dd"
+      "size": 3254,
+      "sha256": "a923bfebde8322d08928eeff9920b64b81bd49bbf770a9963f32680758f90cf6"
+    },
+    {
+      "path": "evidence/strict-baseline-history.txt",
+      "size": 420,
+      "sha256": "d26f2026d194447b24ac4362ff707b2f6cbf8ed0c40be3ad8b904c1b7fc642f6"
+    },
+    {
+      "path": "evidence/strict-dashboard-after-excel.txt",
+      "size": 28476,
+      "sha256": "24f47b47eeac3921dc07ff85118d013748e443613e78a1911ada82f30f11a7a8"
+    },
+    {
+      "path": "evidence/strict-delta-history.txt",
+      "size": 418,
+      "sha256": "004141e950db61247a90b573a5bd70c2469ecee33389ad9c1ab4baa14d30d98b"
+    },
+    {
+      "path": "evidence/strict-map-verified.txt",
+      "size": 12347,
+      "sha256": "0a7bf6c876211ef5079ba245a8dfbe63e292e15fab430222f1a52c57494e28ac"
+    },
+    {
+      "path": "evidence/strict-repeat-history.txt",
+      "size": 418,
+      "sha256": "dd738927c0c9b0568548fa4e868a7eeb193beb0ad0123b7553a1e087e597b6e4"
+    },
+    {
+      "path": "evidence/strict-target-after-baseline.json",
+      "size": 5529,
+      "sha256": "389b1ca985adbefa5cbdb32e70495330694a75efadc33a3720f1eaf9d79e6e8d"
+    },
+    {
+      "path": "evidence/strict-target-after-delta.json",
+      "size": 6258,
+      "sha256": "e8b16ae645a67c65bb55ce4d6f53dd7d53b47258fe8ec13388b8b74b359ab165"
+    },
+    {
+      "path": "evidence/strict-target-after-repeat.json",
+      "size": 6258,
+      "sha256": "e8b16ae645a67c65bb55ce4d6f53dd7d53b47258fe8ec13388b8b74b359ab165"
+    },
+    {
+      "path": "evidence/strict-xlsx-verification.json",
+      "size": 3916,
+      "sha256": "0d6b98a95fe5213b3a96dcc176a7dc6b73b0ee86bfe047a5812f4be448b8cd19"
+    },
+    {
+      "path": "evidence/strict-xlsx-verification.md",
+      "size": 2847,
+      "sha256": "519574eaf265ce1cdcd795e157aaf1ad3d918f660c0d513b7309151a8894155a"
     },
     {
       "path": "evidence/xlsx-baseline-history.txt",
@@ -321,13 +502,13 @@
     },
     {
       "path": "evidence/xlsx-verification.json",
-      "size": 2161,
-      "sha256": "065d21983c0c5d4f1a1971d9b291bd2abe0e1e0b5bda6f4bc89a96cb16e91d16"
+      "size": 2319,
+      "sha256": "b3b38a496457315d39bf3654bc71141c0e2475956b4130f4ce18ba7273201c12"
     },
     {
       "path": "evidence/xlsx-verification.md",
-      "size": 3265,
-      "sha256": "b0967b4e1648aae8fe39dbb53d1899be638369e81f38420b241f26756cd82708"
+      "size": 3478,
+      "sha256": "a9a61650a8dfaa8e25beba79dbaccb44f83bc7c7e4894c57db4f8d27bbd17f53"
     },
     {
       "path": "qa/validate_import_sources.py",
@@ -336,8 +517,8 @@
     },
     {
       "path": "README.md",
-      "size": 6030,
-      "sha256": "85a4b2e87e1dd84e144887c27a1a9dbd9e2e3e12a3d21cd92eb13f34fd83814f"
+      "size": 7722,
+      "sha256": "14fc215dc4a771be6ff675dc69fe1a5dc44e282ad60e47fff222013daea83c2a"
     }
   ]
 }

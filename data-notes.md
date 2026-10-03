@@ -36,3 +36,13 @@ Map `Name` to `Employee Name` explicitly if Auto Map Matching Fields does not ma
 The source row counts, required fields, unique keys, two-update/two-insert case, and repeat-import model were verified locally. An independent comparison of `final-target-ui-data.json` with the expected snapshot also confirmed that all 85 captured final field values match exactly, with 17 records and 17 unique IDs. See `final-target-validation.md` and `.json` for the comparison and provenance. Live transform-history screenshots are separate evidence of the import runs.
 
 Requirements source: [SkillWallet project](https://myskillwallet.ai/dashboard/skillwallet/module/servicenow-system-administrator-nm-eng-6a69e3438beabdd402737035/group-projects/6a96be465827789d637561a8/Import-Data-using-Transform-Maps-Spreadsheet--6ab4cf5ba238dc999eb59656?tab=2), as reviewed for this project.
+
+
+## Current snapshot — 3 October 2026
+
+The current actual CSV and final-target validation files describe the empty-target Excel sequence ending at TH0001009: baseline 15 inserts, delta 2 inserts and 2 updates, repeat 4 ignored. The baseline matched all 75 workbook values; the final target matched 85/85 expected values. All 15 baseline record IDs were retained by the delta and all 17 delta IDs by the repeat. Older snapshots remain as dated historical evidence inside the package.
+
+
+## Native Google Sheets provenance
+
+Owner-only [baseline](https://docs.google.com/spreadsheets/d/1lErJU_Qs1nby-30jVSWxLws-y7H7LLkAV9IZOknm2P4/edit) and [delta](https://docs.google.com/spreadsheets/d/1K9lTCijrxN4YIwR-ToZZ0WEp5LYWSp3Y3T78TslKgnE/edit) Google Sheets were created on 3 October 2026 from the original workbooks. Native readback and the Google Excel exports matched all 95 source data cells and both header rows. Sharing permissions were unchanged. These later copies do not retrospectively establish Google Sheets as the source of the recorded ServiceNow imports. The actually imported XLSX files remain unchanged, with their original SHA-256 hashes recorded in [native-sheets-verification.json](native-sheets-verification.json). See [native-sheets-verification.md](native-sheets-verification.md).

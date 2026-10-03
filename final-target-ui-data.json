@@ -1,121 +1,201 @@
-[
-  [
-    "Salesforce",
-    "deepak.anand@example.com",
-    "SB-0017",
-    "Deepak Anand",
-    "Chennai"
+{
+  "captured_on": "2026-10-03",
+  "after_history": "TH0001009",
+  "provenance": "Values and record identities read from ServiceNow UI; not a native export",
+  "columns": [
+    "Employee ID",
+    "Employee Name",
+    "Email",
+    "Department",
+    "Location"
   ],
-  [
-    "ServiceNow",
-    "divya.ramesh@example.com",
-    "SB-0005",
-    "Divya Ramesh",
-    "Tiruchirappalli"
-  ],
-  [
-    "ServiceNow",
-    "meena.krishnan@example.com",
-    "SB-0009",
-    "Meena Krishnan",
-    "Chennai"
-  ],
-  [
-    "ServiceNow",
-    "karthik.raj@example.com",
-    "SB-0003",
-    "Karthik Raj",
-    "Madurai"
-  ],
-  [
-    "ServiceNow",
-    "ananya.rao@example.com",
-    "SB-0013",
-    "Ananya Rao",
-    "Bengaluru"
-  ],
-  [
-    "ServiceNow",
-    "arun.prakash@example.com",
-    "SB-0001",
-    "Arun Prakash",
-    "Chennai"
-  ],
-  [
-    "ServiceNow",
-    "harini.balaji@example.com",
-    "SB-0016",
-    "Harini Balaji",
-    "Vellore"
-  ],
-  [
-    "Salesforce",
-    "vignesh.kumar@example.com",
-    "SB-0006",
-    "Vignesh Kumar",
-    "Salem"
-  ],
-  [
-    "Salesforce",
-    "test18@example.com",
-    "SB-0010",
-    "Ravi Teja",
-    "Hyderabad"
-  ],
-  [
-    "Salesforce",
-    "ajay.kumar@example.com",
-    "SB-0004",
-    "Ajay",
-    "Chennai"
-  ],
-  [
-    "Salesforce",
-    "sathish.kumar@example.com",
-    "SB-0014",
-    "Sathish Kumar",
-    "Erode"
-  ],
-  [
-    "ServiceNow",
-    "lakshmi.priya@example.com",
-    "SB-0015",
-    "Lakshmi Priya",
-    "Thanjavur"
-  ],
-  [
-    "ServiceNow",
-    "sneha.menon@example.com",
-    "SB-0007",
-    "Sneha Menon",
-    "Coimbatore"
-  ],
-  [
-    "ServiceNow",
-    "nandhini.suresh@example.com",
-    "SB-0011",
-    "Nandhini Suresh",
-    "Madurai"
-  ],
-  [
-    "Salesforce",
-    "priya.nair@example.com",
-    "SB-0002",
-    "Priya Nair",
-    "Coimbatore"
-  ],
-  [
-    "Salesforce",
-    "surya.prasad@example.com",
-    "SB-0012",
-    "Surya Prasad",
-    "Tirunelveli"
-  ],
-  [
-    "Salesforce",
-    "rohit.sharma@example.com",
-    "SB-0008",
-    "Rohit Sharma",
-    "Bengaluru"
+  "records": [
+    {
+      "employee_id": "SB-0001",
+      "sys_id": "4a96d70cc3378794c34b78cc05013113",
+      "values": [
+        "SB-0001",
+        "Arun Prakash",
+        "arun.prakash@example.com",
+        "ServiceNow",
+        "Chennai"
+      ]
+    },
+    {
+      "employee_id": "SB-0002",
+      "sys_id": "0296d70cc3378794c34b78cc05013115",
+      "values": [
+        "SB-0002",
+        "Priya Nair",
+        "priya.nair@example.com",
+        "Salesforce",
+        "Coimbatore"
+      ]
+    },
+    {
+      "employee_id": "SB-0003",
+      "sys_id": "c696d70cc3378794c34b78cc05013115",
+      "values": [
+        "SB-0003",
+        "Karthik Raj",
+        "karthik.raj@example.com",
+        "ServiceNow",
+        "Madurai"
+      ]
+    },
+    {
+      "employee_id": "SB-0004",
+      "sys_id": "8e96d70cc3378794c34b78cc05013115",
+      "values": [
+        "SB-0004",
+        "Ajay",
+        "ajay.kumar@example.com",
+        "Salesforce",
+        "Chennai"
+      ]
+    },
+    {
+      "employee_id": "SB-0005",
+      "sys_id": "4696d70cc3378794c34b78cc05013116",
+      "values": [
+        "SB-0005",
+        "Divya Ramesh",
+        "divya.ramesh@example.com",
+        "ServiceNow",
+        "Tiruchirappalli"
+      ]
+    },
+    {
+      "employee_id": "SB-0006",
+      "sys_id": "0e96d70cc3378794c34b78cc05013116",
+      "values": [
+        "SB-0006",
+        "Vignesh Kumar",
+        "vignesh.kumar@example.com",
+        "Salesforce",
+        "Salem"
+      ]
+    },
+    {
+      "employee_id": "SB-0007",
+      "sys_id": "c296d70cc3378794c34b78cc05013117",
+      "values": [
+        "SB-0007",
+        "Sneha Menon",
+        "sneha.menon@example.com",
+        "ServiceNow",
+        "Coimbatore"
+      ]
+    },
+    {
+      "employee_id": "SB-0008",
+      "sys_id": "8a96d70cc3378794c34b78cc05013117",
+      "values": [
+        "SB-0008",
+        "Rohit Sharma",
+        "rohit.sharma@example.com",
+        "Salesforce",
+        "Bengaluru"
+      ]
+    },
+    {
+      "employee_id": "SB-0009",
+      "sys_id": "4296d70cc3378794c34b78cc05013118",
+      "values": [
+        "SB-0009",
+        "Meena Krishnan",
+        "meena.krishnan@example.com",
+        "ServiceNow",
+        "Chennai"
+      ]
+    },
+    {
+      "employee_id": "SB-0010",
+      "sys_id": "0a96d70cc3378794c34b78cc05013118",
+      "values": [
+        "SB-0010",
+        "Ravi Teja",
+        "test18@example.com",
+        "Salesforce",
+        "Hyderabad"
+      ]
+    },
+    {
+      "employee_id": "SB-0011",
+      "sys_id": "ce96d70cc3378794c34b78cc05013118",
+      "values": [
+        "SB-0011",
+        "Nandhini Suresh",
+        "nandhini.suresh@example.com",
+        "ServiceNow",
+        "Madurai"
+      ]
+    },
+    {
+      "employee_id": "SB-0012",
+      "sys_id": "8696d70cc3378794c34b78cc05013119",
+      "values": [
+        "SB-0012",
+        "Surya Prasad",
+        "surya.prasad@example.com",
+        "Salesforce",
+        "Tirunelveli"
+      ]
+    },
+    {
+      "employee_id": "SB-0013",
+      "sys_id": "ca96d70cc3378794c34b78cc05013132",
+      "values": [
+        "SB-0013",
+        "Ananya Rao",
+        "ananya.rao@example.com",
+        "ServiceNow",
+        "Bengaluru"
+      ]
+    },
+    {
+      "employee_id": "SB-0014",
+      "sys_id": "8296d70cc3378794c34b78cc05013133",
+      "values": [
+        "SB-0014",
+        "Sathish Kumar",
+        "sathish.kumar@example.com",
+        "Salesforce",
+        "Erode"
+      ]
+    },
+    {
+      "employee_id": "SB-0015",
+      "sys_id": "4a96d70cc3378794c34b78cc05013133",
+      "values": [
+        "SB-0015",
+        "Lakshmi Priya",
+        "lakshmi.priya@example.com",
+        "ServiceNow",
+        "Thanjavur"
+      ]
+    },
+    {
+      "employee_id": "SB-0016",
+      "sys_id": "90e6134cc3378794c34b78cc050131fe",
+      "values": [
+        "SB-0016",
+        "Harini Balaji",
+        "harini.balaji@example.com",
+        "ServiceNow",
+        "Vellore"
+      ]
+    },
+    {
+      "employee_id": "SB-0017",
+      "sys_id": "58e6134cc3378794c34b78cc050131fe",
+      "values": [
+        "SB-0017",
+        "Deepak Anand",
+        "deepak.anand@example.com",
+        "Salesforce",
+        "Chennai"
+      ]
+    }
   ]
-]
+}

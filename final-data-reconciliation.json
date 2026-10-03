@@ -1,22 +1,37 @@
 {
+  "verified_at_utc": "2026-10-03T14:52:16.687403+00:00",
+  "after_history": "TH0001009",
   "row_count": 17,
   "unique_ids": 17,
   "all_five_fields_match_expected": true,
+  "matched_values": 85,
+  "compared_values": 85,
   "department_counts": {
     "Salesforce": 8,
     "ServiceNow": 9
   },
   "location_counts": {
-    "Chennai": 4,
-    "Tiruchirappalli": 1,
-    "Madurai": 2,
     "Bengaluru": 2,
-    "Vellore": 1,
-    "Salem": 1,
-    "Hyderabad": 1,
-    "Erode": 1,
-    "Thanjavur": 1,
+    "Chennai": 4,
     "Coimbatore": 2,
-    "Tirunelveli": 1
+    "Erode": 1,
+    "Hyderabad": 1,
+    "Madurai": 2,
+    "Salem": 1,
+    "Thanjavur": 1,
+    "Tiruchirappalli": 1,
+    "Tirunelveli": 1,
+    "Vellore": 1
+  },
+  "record_identity": {
+    "baseline_to_delta": {
+      "compared": 15,
+      "retained": 15
+    },
+    "delta_to_repeat": {
+      "compared": 17,
+      "retained": 17
+    },
+    "pre_reset_sys_ids_reused": false
   }
 }

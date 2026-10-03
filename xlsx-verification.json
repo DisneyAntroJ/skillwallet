@@ -74,5 +74,7 @@
     "Vellore": 1
   },
   "status": "Pass",
-  "throughput": "Unavailable: transform history durations round to 0 Seconds."
+  "throughput": "Unavailable: transform history durations round to 0 Seconds.",
+  "evidence_scope": "Historical populated-target replay before recoverable reset",
+  "superseded_for_current_target_by": "strict-xlsx-verification.json"
 }

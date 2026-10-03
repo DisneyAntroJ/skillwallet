@@ -1,0 +1,126 @@
+{
+  "verified_at_utc": "2026-10-03T14:52:16.687403+00:00",
+  "instance": "dev230529.service-now.com",
+  "method": "Actual XLSX file uploads through Load Data, Sheet 1, header row 1; UI histories and target snapshots independently reconciled with the original source files",
+  "scope": "Baseline imported into an empty project target, followed by the four-row delta and the identical repeat",
+  "reset": {
+    "project_records_before_reset": 17,
+    "target_rows_before_baseline": 0,
+    "recoverable_delete_job": "DM0001001",
+    "backup": "Private local XML backup retained separately; excluded from the public package"
+  },
+  "target_table": "u_employee_test",
+  "staging_table": "u_employee_import",
+  "transform_map": "Sample Spreadsheet Import",
+  "histories": [
+    {
+      "run": "baseline",
+      "file": "Sample Spreadsheet.xlsx",
+      "import_set": "ISET0010007",
+      "history": "TH0001007",
+      "total": 15,
+      "inserted": 15,
+      "updated": 0,
+      "ignored": 0,
+      "skipped": 0,
+      "errors": 0,
+      "state": "Complete",
+      "displayed_duration": "0 Seconds"
+    },
+    {
+      "run": "delta",
+      "file": "Updated Sample Spreadsheet.xlsx",
+      "import_set": "ISET0010008",
+      "history": "TH0001008",
+      "total": 4,
+      "inserted": 2,
+      "updated": 2,
+      "ignored": 0,
+      "skipped": 0,
+      "errors": 0,
+      "state": "Complete",
+      "displayed_duration": "0 Seconds"
+    },
+    {
+      "run": "repeat",
+      "file": "Updated Sample Spreadsheet.xlsx",
+      "import_set": "ISET0010009",
+      "history": "TH0001009",
+      "total": 4,
+      "inserted": 0,
+      "updated": 0,
+      "ignored": 4,
+      "skipped": 0,
+      "errors": 0,
+      "state": "Complete",
+      "displayed_duration": "0 Seconds"
+    }
+  ],
+  "baseline_records": 15,
+  "baseline_comparison": {
+    "compared_values": 75,
+    "matched_values": 75,
+    "mismatches": []
+  },
+  "delta_records": 17,
+  "delta_comparison": {
+    "compared_values": 85,
+    "matched_values": 85,
+    "mismatches": []
+  },
+  "final_records": 17,
+  "unique_employee_ids": 17,
+  "compared_values": 85,
+  "matched_values": 85,
+  "mismatches": [],
+  "record_identity": {
+    "baseline_to_delta": {
+      "compared": 15,
+      "retained": 15
+    },
+    "delta_to_repeat": {
+      "compared": 17,
+      "retained": 17
+    },
+    "pre_reset_sys_ids_reused": false
+  },
+  "department_counts": {
+    "Salesforce": 8,
+    "ServiceNow": 9
+  },
+  "location_counts": {
+    "Bengaluru": 2,
+    "Chennai": 4,
+    "Coimbatore": 2,
+    "Erode": 1,
+    "Hyderabad": 1,
+    "Madurai": 2,
+    "Salem": 1,
+    "Thanjavur": 1,
+    "Tiruchirappalli": 1,
+    "Tirunelveli": 1,
+    "Vellore": 1
+  },
+  "technical_case_summary": {
+    "functional": 18,
+    "duration_observation": 1,
+    "local_source_negative": 4,
+    "total": 23,
+    "passed": 23,
+    "failed": 0,
+    "not_run": 0
+  },
+  "status": "Pass",
+  "throughput": "Unavailable: displayed transform durations round to 0 Seconds.",
+  "previous_runs": "CSV TH0001001-TH0001003 and populated-target XLSX TH0001004-TH0001006 are retained as separate historical evidence.",
+  "source_sha256": {
+    "strict-target-after-baseline.json": "389b1ca985adbefa5cbdb32e70495330694a75efadc33a3720f1eaf9d79e6e8d",
+    "strict-target-after-delta.json": "e8b16ae645a67c65bb55ce4d6f53dd7d53b47258fe8ec13388b8b74b359ab165",
+    "strict-target-after-repeat.json": "e8b16ae645a67c65bb55ce4d6f53dd7d53b47258fe8ec13388b8b74b359ab165"
+  },
+  "input_sha256": {
+    "Sample Spreadsheet.xlsx": "dbe30ef5a6429084b9cdb2c8cf16bddcaa9c0eae1c18f827e98b70bf5722c05c",
+    "Updated Sample Spreadsheet.xlsx": "3842d1338f7d11932f41af7023d20239c35fdee5fdbddc2beb5d220c0e73027f",
+    "Expected Final Target.csv": "dfaa45932e7bf66f9ca98d508c50863a29867ffcc62a09d7aafe4f27877425b8"
+  }
+}
